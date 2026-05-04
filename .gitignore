@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large BRFSS data files should not be committed)
+data/*.XPT
+data/*.xpt
+data/*.csv
+data/*.sas7bdat
+data/*.pkl
+!data/.gitkeep
+
+# Results (generated outputs)
+results/*.png
+results/*.csv
+results/*.json
+!results/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
